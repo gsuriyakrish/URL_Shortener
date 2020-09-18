@@ -45,8 +45,8 @@ This project is intended for implementing a URL Shortener with Flask Framework
 
 **Response**
 
-- 400: Invalid Input Data of URL
-- 500: URL already shortened
+- 400: Validation errors in Input
+- 500: Invalid Input Key
 - 200: Success
 
 ```json
@@ -129,10 +129,6 @@ This project is intended for implementing a URL Shortener with Flask Framework
 
 ![Screenshot](screenshots/1.png)
 
-## Todo ##
-- Caching
-- Test Coverage
-- Production run code with gunicorn
 
 ## Distribution ##
 - A git repository
