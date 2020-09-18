@@ -14,6 +14,10 @@ This project is intended for implementing a URL Shortener with Flask Framework
 5. To run the unit testcases
 
         * make test
+        
+6. To stop the service
+
+        * make stop
 
 ## Libraries Used ##
 

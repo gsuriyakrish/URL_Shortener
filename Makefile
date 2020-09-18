@@ -6,3 +6,6 @@ start:
 
 test:
 	docker-compose run --rm url-shortener python -m unittest
+
+stop:
+	docker-compose stop
