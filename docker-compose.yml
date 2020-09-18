@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  url-shortener:
+    build: .
+    image: python-3.7.3
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "5000:5000"
+    environment:
+      APP_CONFIG_FILE: /usr/src/app/config/development.py
+    working_dir: /usr/src/app
