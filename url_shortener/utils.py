@@ -1,5 +1,5 @@
 import logging
-from url_shortener import application
+from url_shortener.core import application
 
 
 # Log the logs
